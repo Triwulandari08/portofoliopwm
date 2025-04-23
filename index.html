@@ -1,16 +1,23 @@
+<!-- Deklarasi tipe dokumen HTML5 -->
 <!DOCTYPE html>
+<!-- Elemen HTML utama, dengan bahasa Indonesia -->
 <html lang="id">
-<head>
+<head> 
   <meta charset="UTF-8">
+  <!-- Untuk memastikan tampilan responsif di perangkat mobile -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Judul halaman yang akan muncul di tab browser -->
   <title>Portofolio Saya</title>
+  <!-- Menautkan file CSS eksternal untuk styling -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Header berisi nama dan navigasi -->
+  <!-- Header berisi nama dan tombol navigasi -->
   <header>
     <div class="container">
       <h1>PORTOFOLIO</h1>
+
+      <!-- Navigasi internal ke bagian halaman tentang, proyek dan kontak, bila diklik maka akan mengarah kesana-->
       <nav>
         <ul>
           <li><a href="#tentang">Tentang</a></li>
@@ -21,51 +28,52 @@
     </div>
   </header>
 
-  <!-- Bagian Tentang -->
+  <!-- Bagian profile diri -->
   <section id="tentang">
     <div class="container">
       <h2>Tri Wulandari</h2>
       <div class="tentang-wrapper">
-        <img src="saya.jpg" alt="Foto Saya" class="foto-profil">
-        <p>Saya adalah seorang pengembang web yang berfokus pada pengembangan front-end, dengan latar belakang pendidikan di bidang akuntansi. Saya menyelesaikan studi Diploma III dalam program Sistem Informasi Akuntansi di Universitas Teknologi Digital Indonesia. Selama masa studi, saya memperoleh pemahaman yang kuat mengenai prinsip-prinsip akuntansi serta penerapan teknologi informasi dalam pengelolaan data keuangan dan sistem informasi manajemen.Kombinasi antara keahlian teknis di bidang web development dan pemahaman mendalam tentang akuntansi memungkinkan saya untuk mengembangkan aplikasi web yang tidak hanya menarik secara visual dan responsif, tetapi juga fungsional dan sesuai dengan kebutuhan sistem informasi keuangan. Saya terbiasa bekerja dengan berbagai framework front-end modern serta memahami pentingnya integritas data dan pelaporan keuangan yang akurat. Saya memiliki ketertarikan khusus dalam mengembangkan solusi digital yang mendukung efisiensi proses bisnis, terutama di sektor keuangan dan akuntansi. Dengan latar belakang ini, saya berkomitmen untuk menciptakan antarmuka yang intuitif, sekaligus memastikan sistem berjalan sesuai dengan standar akuntansi dan kebutuhan operasional perusahaan.</p>
+        <img src="saya.jpeg" alt="Foto Saya" class="foto-profil">
+        <p>Hai! Saya front-end developer yang cinta tampilan keren dan data keuangan rapi. Berbekal ilmu akuntansi dan coding, saya suka bikin web yang nggak cuma enak dilihat, tapi juga bantu bisnis jalan lebih efisien. Yuk, bikin solusi digital bareng!</p>
       </div>
     </div>
   </section>
   
 
-  <!-- Bagian Proyek -->
+  <!-- Bagian Proyek untuk menampilkan daftar proyek terbaru -->
   <section id="proyek">
     <div class="container">
       <h2>Proyek Terbaru</h2>
+       <!-- Tata letak proyek dalam bentuk grid persegi -->
       <div class="grid">
+        <!-- Masing-masing card berisi deskripsi proyek -->
         <div class="card">
-          <h3>Proyek 1</h3>
-          <p>Deskripsi singkat proyek 1.</p>
+          <h3>FinTrack – Personal Finance Dashboard</h3>
+          <p>Aplikasi web untuk membantu pengguna memantau pengeluaran dan pendapatan bulanan, lengkap dengan grafik analisis, fitur pengelompokan transaksi, dan laporan PDF otomatis.</p>
         </div>
         <div class="card">
-          <h3>Proyek 2</h3>
-          <p>Deskripsi singkat proyek 2.</p>
+          <h3>LedgerLite – Sistem Informasi Akuntansi Sederhana untuk UMKM</h3>
+          <p>Web app berbasis SPA untuk pencatatan transaksi, pembuatan jurnal, buku besar, dan laporan keuangan sederhana.</p>
         </div>
         <div class="card">
-          <h3>Proyek 3</h3>
-          <p>Deskripsi singkat proyek 3.</p>
+          <h3>PayQuick – Invoice & Payment Tracking Tool</h3>
+          <p>Aplikasi front-end untuk membuat, mengirim, dan melacak invoice secara real-time, lengkap dengan status pembayaran dan reminder otomatis.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Bagian Kontak -->
+  <!-- Bagian Kontak yang berisi informasi kontak untuk dihubungi -->
   <section id="kontak">
     <div class="container">
       <h2>Kontak</h2>
-      <p>Email: saya@email.com</p>
+      <p>Email: tri.wulandari22@student.utdi.ac.id</p>
     </div>
   </section>
 
-  <!-- Footer -->
+  <!-- Footer yang merupakan bagian paling bawah halaman (kosong untuk saat ini) -->
   <footer>
     <div class="container">
     </div>
   </footer>
 </body>
-</html>
